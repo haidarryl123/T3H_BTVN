@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 07</title>
+
+    <style>
+        thead td {
+            font-weight: bold;
+        }
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .container > div {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <label for="column">Số cột</label>
+        <input type="number" id="column">
+    </div>
+    <div class="row">
+        <label for="row">Số hàng</label>
+        <input type="number" id="row">
+    </div>
+    <div class="row">
+        <button id="generate">Tạo bảng</button>
+    </div>
+
+    <div>
+        <table id="table">
+            
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

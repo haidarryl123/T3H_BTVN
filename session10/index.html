@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        let calculate = (a, b, c) => {
+            let result;
+            let root1, root2;
+            let pt = b * b - 4 * a * c;
+            if (pt > 0) {
+                root1 = (-b + Math.sqrt(pt)) / (2 * a);
+                root2 = (-b - Math.sqrt(pt)) / (2 * a);
+                result = `Nghiệm của pt là: ${root1} và ${root2}`;
+            } else if (pt == 0) {
+                root1 = root2 = -b / (2 * a);
+                result = `Nghiệm của pt là: ${root1} và ${root2}`;
+            } else {
+                let realPart = (-b / (2 * a)).toFixed(2);
+                let imagPart = (Math.sqrt(-pt) / (2 * a)).toFixed(2);
+                result = `Nghiệm của pt là: ${realPart} + ${imagPart}i và ${realPart} - ${imagPart}i`;
+            }
+            return result;
+        }
+
+        let a = prompt("Nhập số a: ");
+        let b = prompt("Nhập số b: ");
+        let c = prompt("Nhập số c: ");
+        let result = calculate(a,b,c);
+        alert(result);
+    </script>
+</body>
+
+</html>

@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Todo from './Components/Todo';
+import FunctionComponent from './Components/Calculator/FunctionComponent';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Todo />
+    <FunctionComponent />
 );
 
 // If you want to start measuring performance in your app, pass a function

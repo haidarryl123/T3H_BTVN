@@ -1,0 +1,102 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.row {
+    padding: 0 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.btn {
+    padding: 5px 10px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.my-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.item {
+    width: 40%;
+    padding: 5px 10px;
+}
+
+.bg-default {
+    background-color: rgba(99,99,99,0.33);
+}
+
+.bg-success {
+    background-color: rgb(42, 232, 29);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-9 {
+    width: 75%;
+}
